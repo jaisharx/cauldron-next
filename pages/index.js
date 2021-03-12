@@ -1,5 +1,4 @@
-import Footer from 'components/footer';
-import Navbar from 'components/navbar';
+import DefaultLayout from 'layouts/default';
 
 import MainSection from 'components/page-sections/home/hero-section';
 import SectionFive from 'components/page-sections/home/section-five';
@@ -12,15 +11,15 @@ import SectionTwo from 'components/page-sections/home/section-two';
 export default function Home() {
     return (
         <>
-            <Navbar />
-            <MainSection />
-            <SectionOne />
-            <SectionTwo />
-            <SectionThree />
-            <SectionFour />
-            <SectionFive />
-            <SectionLast />
-            <Footer />
+            <DefaultLayout>
+                <MainSection />
+                <SectionOne />
+                <SectionTwo />
+                <SectionThree />
+                <SectionFour />
+                <SectionFive />
+                <SectionLast />
+            </DefaultLayout>
         </>
     );
 }
