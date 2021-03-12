@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
                     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
-    img {
+    img, video {
         max-width: 100%;
         height: auto;
     }
