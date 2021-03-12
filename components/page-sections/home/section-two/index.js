@@ -5,7 +5,7 @@ export default function SectionTwo() {
         <Section>
             <div className="container">
                 <div className="left">
-                    <video className="video" loop="loop" autoplay="autoplay">
+                    <video className="video" loop="loop" autoPlay="autoplay">
                         <source src="/section-second-video.mp4" type="video/mp4" />
                     </video>
                 </div>

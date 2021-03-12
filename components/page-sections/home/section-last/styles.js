@@ -1,5 +1,5 @@
-import section from '../base-section';
 import styled from 'styled-components';
+import section from '../base-section';
 
 export default styled(section)`
     background-color: #f5f5f5;
@@ -22,6 +22,10 @@ export default styled(section)`
     }
 
     .cta {
+        margin: 0;
+    }
+
+    form {
         margin: 0;
     }
 `;

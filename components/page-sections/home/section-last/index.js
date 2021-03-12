@@ -1,3 +1,4 @@
+import MainCTA from 'components/main-cta/';
 import Section from './styles.js';
 
 export default function SectionLast() {
@@ -5,10 +6,7 @@ export default function SectionLast() {
         <Section>
             <div className="container">
                 <h2 className="get-started">Get started with Cauldron today</h2>
-                <form className="cta">
-                    <input type="email" placeholder="Your work email" />
-                    <button className="get-started">Get started free</button>
-                </form>
+                <MainCTA/>
             </div>
         </Section>
     );
