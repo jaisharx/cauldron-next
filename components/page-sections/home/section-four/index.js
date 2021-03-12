@@ -3,19 +3,19 @@ import Section from './styles.js';
 export default function SectionFour() {
     return (
         <Section>
-            <div class="container">
-                <div class="left">
+            <div className="container">
+                <div className="left">
                     <img src="/digitainLanding.c302487.png" alt="Digital Landing Page" />
                 </div>
-                <div class="right">
-                    <div class="user-title">USER STORY</div>
-                    <h2 class="quote">
+                <div className="right">
+                    <div className="user-title">USER STORY</div>
+                    <h2 className="quote">
                         “Our screening process, which used to take up several days was cut to a few
                         hours.”
                     </h2>
-                    <div class="name">Anna P.</div>
-                    <div class="role">Chief People and Culture Officer at Digitain</div>
-                    <a href="#" class="read-more-btn">
+                    <div className="name">Anna P.</div>
+                    <div className="role">Chief People and Culture Officer at Digitain</div>
+                    <a href="#" className="read-more-btn">
                         Read user story
                     </a>
                 </div>
