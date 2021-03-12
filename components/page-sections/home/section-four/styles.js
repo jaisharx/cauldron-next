@@ -38,4 +38,24 @@ export default styled(section)`
             line-height: 3.6rem;
         }
     }
+
+    .read-more-btn {
+        cursor: pointer;
+        display: inline-block;
+        color: #fff;
+
+        font: inherit;
+        font-weight: 500;
+        font-family: 'inter';
+
+        text-decoration: none;
+        margin-top: 2rem;
+        border-radius: 4px;
+        border: 1px solid #fff;
+        padding: 1rem 2rem;
+
+        &:hover {
+            background-color: #111;
+        }
+    }
 `;

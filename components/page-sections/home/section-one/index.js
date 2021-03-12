@@ -1,3 +1,4 @@
+import Button from 'components/button/index.js';
 import Section from './styles.js';
 
 export default function SectionOne() {
@@ -22,9 +23,7 @@ export default function SectionOne() {
                             to the applications, reduce screening and evaluation time.
                         </li>
                     </ul>
-                    <a href="#" className="cta-btn">
-                        Get Started — it's free
-                    </a>
+                    <Button>Get Started — it's free</Button>
                 </div>
                 <div className="right">
                     <img src="/sectionFirst.4400bc1.png" alt="Process of working" />

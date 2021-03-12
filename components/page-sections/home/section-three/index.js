@@ -1,3 +1,4 @@
+import Button from 'components/button/index.js';
 import Section from './styles.js';
 
 export default function SectionThree() {
@@ -28,9 +29,7 @@ export default function SectionThree() {
                             no such thing as over-communication.
                         </li>
                     </ul>
-                    <a href="#" className="cta-btn">
-                        Start building now
-                    </a>
+                    <Button>Start building now</Button>
                 </div>
                 <div className="right">
                     <img src="/sectionThree.ee1185a.png" alt="Submit process explained" />
