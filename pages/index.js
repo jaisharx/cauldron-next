@@ -1,6 +1,8 @@
 import Footer from 'components/footer'
 import Navbar from 'components/navbar'
 import MainSection from 'components/page-sections/home/hero-section'
+import SectionFive from 'components/page-sections/home/section-five'
+import SectionFour from 'components/page-sections/home/section-four'
 import SectionOne from 'components/page-sections/home/section-one'
 import SectionThree from 'components/page-sections/home/section-three'
 import SectionTwo from 'components/page-sections/home/section-two'
@@ -14,7 +16,10 @@ export default function Home() {
         <SectionOne/>
         <SectionTwo/>
         <SectionThree/>
+        <SectionFour/>
+        <SectionFive/>
         <Footer/>
+
         
     </>
   )
