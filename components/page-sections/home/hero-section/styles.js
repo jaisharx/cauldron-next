@@ -1,5 +1,17 @@
 import styled, { keyframes } from 'styled-components';
 
+const down = keyframes`
+        0% {
+            transform: translateY(0rem);
+        }
+        50% {
+            transform: translateY(1rem);
+        }
+        100% {
+            transform: translateY(0rem);
+        }
+`;
+
 export default styled.main`
     min-height: calc(100vh - 12rem);
     margin-top: 12rem;
@@ -43,16 +55,4 @@ export default styled.main`
 
         animation: ${down} 2s infinite;
     }
-`;
-
-const down = keyframes`
-        0% {
-            transform: translateY(0rem);
-        }
-        50% {
-            transform: translateY(1rem);
-        }
-        100% {
-            transform: translateY(0rem);
-        }
 `;
