@@ -18,6 +18,11 @@ const GlobalStyle = createGlobalStyle`
                     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
     .container {
         max-width: 120rem;
         margin: 0 auto;
